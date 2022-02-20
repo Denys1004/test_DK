@@ -1,0 +1,72 @@
+@import'../../App/colors.scss';
+
+.results_page__header{
+    margin-bottom: 20px;
+
+    & > h2{
+        text-align: center;
+    }
+
+    & > a{
+        text-decoration: none !important;
+    }
+    
+    & > a button {
+        color: $white;
+    }
+}
+
+.results_page__content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    min-height: 200px;
+    grid-gap: 1rem;
+
+    .results_page__content-item{
+        position: relative;
+        overflow: hidden;
+        min-height: 100px;
+        padding: 20px;
+        color: $dark_grey;
+        background-color: $white;
+        border-radius: 4px;
+        box-shadow: $items_box_shadow;
+        transition: box-shadow 0.5s ease 0s;
+        will-change: box-shadow;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &:hover{
+            cursor: pointer;
+            box-shadow: $box_shadow;
+            color: $dark_grey;
+        }
+
+        h3{
+            font-weight: 500;
+            word-wrap: break-word;
+            color: $dark_grey;
+        }
+
+        p{
+            font-size: 15px;
+            line-height: 1.5rem;
+            word-wrap: break-word;
+        }
+
+        .fizzBuzz{
+            color: $main_green;
+            font-weight: 600;
+            letter-spacing: 0.4px;
+        }
+
+        .results_page__content-item_img{
+            width: 800px;
+            opacity: 0.1;
+            position: absolute;
+            top: -20px;
+            right: -730px;
+            pointer-events: none;
+        }
+    }
+}

@@ -1,3 +1,23 @@
+To run app need to have node and npm installed on your computer/laptop
+
+Then open your terminal, navigate to the proh=ject directory and run:
+npm i
+
+Details:
+
+    UI Library:
+        npm i @material-ui/lab @material-ui/core
+
+    Router:
+        npm i react-router-dom
+
+    SASS Preprocessor:
+        npm i sass
+
+    Date Pickers:
+        npm i --save date-fns@next @date-io/date-fns
+        npm i @material-ui/pickers@3.2.8 @date-io/date-fns@1.3.13 date-fns@2.8.1
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,42 @@
+@import'../../App/colors.scss';
+
+.form{
+    background-color: $white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: $box_shadow !important;
+    
+    .form__title{
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    
+    .form__inputs-container{
+        padding: 0 !important;
+        & > div{
+            margin: 8px 0 !important;
+            width: 100% !important;
+            background-color: $white !important;
+        }
+    }
+
+    .form__inputs-container_buttons{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+
+        &>button{
+            padding: 12px 35px;
+        }
+
+        &>button:first-child{
+            color: $white;
+            margin-left: -1px;
+        }
+        
+        &>button:last-child{
+            margin-right: -1px;
+        }
+    }
+}
