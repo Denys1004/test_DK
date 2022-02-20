@@ -20,7 +20,7 @@ const initialValues = {
     number: '',
     gender: 'male',
     maritalStatus: '',
-    dateOfBirth: new Date(),
+    dateOfBirth: null,
 }
 
 

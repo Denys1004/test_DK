@@ -5,9 +5,9 @@ const KEYS ={
 
 
 export const getMaritalStatuses = ()=>([
-    { id: '1', title: 'Mariied' },
+    { id: '1', title: 'Married' },
     { id: '2', title: 'Single' },
-    { id: '3', title: 'Devorsed' }
+    { id: '3', title: 'Divorced' }
 ])
   
 
