@@ -1,6 +1,6 @@
 To run app need to have node and npm installed on your computer/laptop
 
-Then open your terminal, navigate to the proh=ject directory and run:
+Then open your terminal, navigate to the project directory and run:
 npm i
 
 Details:
