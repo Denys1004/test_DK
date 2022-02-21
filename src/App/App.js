@@ -1,9 +1,7 @@
 import React from 'react';
 import {createTheme, ThemeProvider} from '@material-ui/core';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import HomePage from "../pages/HomePage/HomePage";
-import ResultsPage from "../pages/ResultsPage/ResultsPage";
-import ErrorPage from "../pages/ErrorPage/ErrorPage";
+import {BrowserRouter} from 'react-router-dom';
+import AppRouter from '../components/AppRouter';
 
 // Styles
 import './App.scss';
@@ -42,11 +40,9 @@ const App = () => {
 	return (
 		<BrowserRouter>
 			<ThemeProvider theme={theme}>
-				<Routes>
-					<Route path="/" element={<HomePage/>} />
-					<Route path="/results/" element={<ResultsPage/>} />
-					<Route path="*" element={<ErrorPage/>} />
-				</Routes>
+
+				<AppRouter />
+
 			</ThemeProvider>
 		</BrowserRouter>
 	)
