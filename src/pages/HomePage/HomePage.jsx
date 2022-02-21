@@ -2,7 +2,7 @@ import React from 'react';
 import UsersForm from "../../components/UsersForm/UsersForm";
 
 // Images
-import images from '../../constans/images';
+import images from '../../constants/images';
 
 // Styles
 import './HomePage.scss';

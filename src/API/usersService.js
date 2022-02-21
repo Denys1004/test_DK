@@ -3,14 +3,12 @@ const KEYS ={
     userId:'userId'
 }
 
-
 export const getMaritalStatuses = ()=>([
     { id: '1', title: 'Married' },
     { id: '2', title: 'Single' },
     { id: '3', title: 'Divorced' }
 ])
   
-
 export function getDataFromLocalStorage() {
     return JSON.parse(localStorage.getItem('users'));
 }

@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import * as usersService from "../../appServices/usersService";
-import Controls from "../../components/controls/Controls";
+import * as usersService from "../../API/usersService";
+import Controls from "../../components/UI/Controls";
 
 // Images
-import images from '../../constans/images';
+import images from '../../constants/images';
 
 // Styles
 import './ResultsPage.scss'; 

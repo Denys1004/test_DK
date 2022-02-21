@@ -1,8 +1,8 @@
 import React from 'react';
 import {useNavigate} from 'react-router-dom';
-import Controls from "../controls/Controls";
+import Controls from "../UI/Controls";
 import { useForm } from '../../hooks/useForm';
-import * as usersService from "../../appServices/usersService";
+import * as usersService from "../../API/usersService";
 
 // Styles
 import './UsersForm.scss';
